@@ -907,3 +907,52 @@ letter-spacing: .2rem;
 text-transform: uppercase;
 cursor: pointer;
 }
+
+@media screen and (min-width: 0) and (max-width: 600px){
+
+.hello h2{
+font-size: 1rem !important;
+}
+
+.iam h2{
+    font-size: .9rem !important;
+    }
+ 
+    .bg-dots{
+        margin-left: 0%;
+        margin-top: 17%;
+        background-image: url("../pics/dots.png");
+        position: relative;
+        width: 300px;
+        height: 350px;
+    z-index: 12;
+    position: relative;
+    }
+    .bg-dots::after{
+        background-image: url("../pics/hero.jpg");
+    position: absolute;
+    z-index: 22;
+        background-size: 100% 100%;
+        width: 320px;
+        height: 380px;
+        background-repeat: no-repeat;
+        content:"";
+    bottom: 7%;
+    left: 4%;
+    }
+
+    .txtarea{
+        width: 315px !important;
+    }
+.dummy-footer h2{
+    font-size: .8rem;
+}
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden !important;
+}
+
+
+
+
+}
